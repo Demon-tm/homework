@@ -1,1 +1,11 @@
 git init
+git add .
+git commit -m "Add files"
+git branch new_br
+git checkout new_br
+створили у новій гілці файли: index.js
+git add .
+git commit -m "add files"
+git checkout master
+git remote add origin https://github.com/Demon-tm/homework.git
+git push -u origin main
